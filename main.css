@@ -1,0 +1,46 @@
+.button {
+    position: absolute;
+    /*top: 5%;
+    left: 90%;*/
+    /*bottom: 90%;*/
+    margin-right: 70px;
+    background-color: #6956FD;
+    border-radius: 17px;
+    height: 25px;
+    width: 80px;
+    color: #FFFFFF;
+    font-family: Clear Sans Light;
+    font-size: 14px;
+    letter-spacing: -0.05px;
+    border: 0;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+}
+
+
+.button:hover {
+    background-color: white;
+    color: #6956FD;
+    cursor: pointer;
+}
+
+.feinPopup {
+    position: absolute;
+    left: 64%;
+    top: 10%;
+    opacity: 0.97;
+    background: #E6E2FF;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    z-index: 5;
+    width: 28%;
+    font-family: Clear Sans Light;
+font-size: 14px;
+color: #120079;
+letter-spacing: -0.05px;
+padding: 8px;
+
+}
