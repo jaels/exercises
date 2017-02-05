@@ -8,7 +8,7 @@ $(document).ready(function() {
         console.log('clicked');
         setTimeout(function () {
             $('.OoRYyc').append('<input type="button" class="feinButton" value="Timed Email"></input>');
-        }, 1500);
+        }, 1000);
         setTimeout(function () {
             $(".feinButton").on('click', function () {
                 if(toggle===false) {
@@ -23,7 +23,7 @@ $(document).ready(function() {
                 }
             });
 
-        }, 2000);
+        }, 1800);
     });
 
     // This is for when you press Reply to write and email
@@ -34,7 +34,7 @@ $(document).ready(function() {
                 console.log('ams clicked')
                 setTimeout(function () {
                     $('.OoRYyc').append('<input type="button" class="feinButton" value="Timed Email"></input>');
-                }, 1500);
+                }, 1000);
                 setTimeout(function () {
                     $(".feinButton").on('click', function () {
                         if(toggle===false) {
@@ -49,7 +49,7 @@ $(document).ready(function() {
                         }
                     });
 
-                }, 2000);
+                }, 1800);
             });
 
         }, 800);
