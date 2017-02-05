@@ -1,10 +1,8 @@
 {
     "manifest_version": 2,
-
     "name": "Scheduled mail trial",
     "description": "This extension lets you time your email",
     "version": "1.0",
-
     "content_scripts": [
         {
             "matches": ["https://mail.google.com/*"],
@@ -12,7 +10,6 @@
             "js" : ["jquery.js","index.js"]
         }
     ],
-
     "browser_action": {
         "default_icon": "feinicon.png"
     },

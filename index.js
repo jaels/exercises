@@ -8,7 +8,7 @@ $(document).ready(function() {
         console.log('clicked');
         setTimeout(function () {
             $('.OoRYyc').append('<input type="button" class="feinButton" value="Timed Email"></input>');
-        }, 1000);
+        }, 500);
         setTimeout(function () {
             $(".feinButton").on('click', function () {
                 if(toggle===false) {
@@ -22,10 +22,10 @@ $(document).ready(function() {
                     toggle=false;
                 }
             });
-        }, 1800);
+        }, 800);
     });
 
-// This is for when you press Reply to write and email
+// This is for when you press Reply or Forward to write and email
 
     $(".yX").on('click', function() {
         setTimeout(function () {
@@ -33,7 +33,7 @@ $(document).ready(function() {
                 console.log('ams clicked')
                 setTimeout(function () {
                     $('.OoRYyc').append('<input type="button" class="feinButton" value="Timed Email"></input>');
-                }, 1000);
+                }, 500);
                 setTimeout(function () {
                     $(".feinButton").on('click', function () {
                         if(toggle===false) {
@@ -47,7 +47,7 @@ $(document).ready(function() {
                             toggle=false;
                         }
                     });
-                }, 1800);
+                }, 800);
             });
         }, 800);
     });
