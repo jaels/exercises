@@ -1,24 +1,24 @@
 {
-  "manifest_version": 2,
+    "manifest_version": 2,
 
-  "name": "Scheduled mail trial",
-  "description": "This extension lets you date your email",
-  "version": "1.0",
+    "name": "Scheduled mail trial",
+    "description": "This extension lets you date your email",
+    "version": "1.0",
 
-  "content_scripts": [
-  {
-    "matches": ["https://mail.google.com/*"],
-    "css": ["main.css"],
-    "js" : ["jquery.js","index.js"]
-  }
-],
-
-  "browser_action": {
-    "default_icon": "feinicon.png"
-  },
-  "permissions": [
-    "activeTab", "tabs", "http://*/*", "https://*/*","<all_urls>",
-    "https://ajax.googleapis.com/"
-],
-"web_accessible_resources":["dialog.html", "main.css"]
+    "content_scripts": [
+        {
+            "matches": ["https://mail.google.com/*"],
+            "css": ["main.css"],
+            "js" : ["jquery.js","index.js"]
+        }
+    ],
+    
+    "browser_action": {
+        "default_icon": "feinicon.png"
+    },
+    "permissions": [
+        "activeTab", "tabs", "http://*/*", "https://*/*","<all_urls>",
+        "https://ajax.googleapis.com/"
+    ],
+    "web_accessible_resources":["dialog.html", "main.css"]
 }

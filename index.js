@@ -22,11 +22,10 @@ $(document).ready(function() {
                     toggle=false;
                 }
             });
-
         }, 1800);
     });
 
-    // This is for when you press Reply to write and email
+// This is for when you press Reply to write and email
 
     $(".yX").on('click', function() {
         setTimeout(function () {
@@ -48,10 +47,8 @@ $(document).ready(function() {
                             toggle=false;
                         }
                     });
-
                 }, 1800);
             });
-
         }, 800);
-    })
+    });
 });
