@@ -12,7 +12,7 @@ $(document).ready(function() {
         setTimeout(function () {
             console.log('lets seeee');
             $('.OoRYyc').append('<input type="button" class="feinButton" value="Timed Email"></input>');
-        }, 2000);
+        }, 1500);
 
         setTimeout(function () {
             $(".feinButton").on('click', function () {
@@ -29,6 +29,6 @@ $(document).ready(function() {
                 }
             });
 
-        }, 2050);
+        }, 2000);
     });
 });

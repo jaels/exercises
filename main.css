@@ -28,16 +28,16 @@
 }
 
 .feinPopup {
-    position: relative;
+    position: absolute;
     left: 25%;
-    bottom: 200px;
+    bottom: 90%;
     opacity: 0.97;
     background: #E6E2FF;
     -webkit-border-radius: 30px;
     -moz-border-radius: 20px;
     border-radius: 10px;
     z-index: 5;
-    width: 28%;
+    width: 55%;
     font-family: Clear Sans Light;
 font-size: 14px;
 color: #120079;
