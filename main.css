@@ -29,15 +29,16 @@
     left: 25%;
     bottom: 90%;
     opacity: 0.97;
-    background: #E6E2FF;
+    background: #5F9EA0;
     -webkit-border-radius: 30px;
     -moz-border-radius: 20px;
     border-radius: 10px;
     z-index: 5;
     width: 330px;
     font-family: Clear Sans Light;
-font-size: 14px;
-color: #120079;
-letter-spacing: -0.05px;
-padding: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #120079;
+    letter-spacing: -0.05px;
+    padding: 8px;
 }

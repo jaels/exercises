@@ -5,7 +5,6 @@ $(document).ready(function() {
 // This is for when you press Compose to write and email
 
     $('.T-I').on('click', function() {
-        console.log('clicked');
         setTimeout(function () {
             $('.OoRYyc').append('<input type="button" class="feinButton" value="Timed Email"></input>');
         }, 500);
@@ -30,7 +29,6 @@ $(document).ready(function() {
     $(".yX").on('click', function() {
         setTimeout(function () {
             $('.ams').on('click', function() {
-                console.log('ams clicked')
                 setTimeout(function () {
                     $('.OoRYyc').append('<input type="button" class="feinButton" value="Timed Email"></input>');
                 }, 500);
